@@ -5,5 +5,6 @@
 
 	# Includes
 	fs = require 'file-system'
+	async = require 'async'
 
 	console.log 'code to come here'
