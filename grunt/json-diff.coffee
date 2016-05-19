@@ -3,4 +3,7 @@
 # 
 # =============================================
 
-console.log 'json-diff code to go here'
+	# Includes
+	fs = require 'file-system'
+
+	console.log 'code to come here'
