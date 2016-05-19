@@ -14,6 +14,10 @@ module.exports = (grunt) ->
   grunt.registerTask 'optimize-images', [ 
     'imagemin' 
   ]
+
+  grunt.registerTask 'json-diff', [
+    'json-diff'
+  ]
   
   grunt.registerTask 'build', [
     'imagemin'
